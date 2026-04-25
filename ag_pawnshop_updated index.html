@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AG Pawnshop</title>
+
+<style>
+body {margin:0;font-family:Arial,sans-serif;background:#111;color:#fff;}
+nav {background:#000;padding:15px 30px;display:flex;justify-content:space-between;align-items:center;}
+nav h1 {margin:0;}
+.logo-a {color:#00BFFF;} /* light blue */
+.logo-g {color:#003366;} /* dark blue */
+nav a {color:white;margin-left:20px;text-decoration:none;font-weight:bold;}
+nav a:hover {color:#FFD700;}
+
+.hero {
+background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+url('https://images.unsplash.com/photo-1607082350929-8a4c68f24b93');
+background-size:cover;background-position:center;
+padding:120px 20px;text-align:center;
+}
+.hero h2 {font-size:48px;color:#FFD700;}
+
+.services {padding:60px 20px;text-align:center;}
+.services h2 {color:#FFD700;}
+
+.cards {display:flex;flex-wrap:wrap;justify-content:center;margin-top:30px;}
+.card {background:#222;margin:15px;padding:20px;width:250px;border:2px solid #FFD700;border-radius:8px;}
+.card h3 {color:#FFD700;}
+
+.about {padding:60px 20px;background:#000;text-align:center;}
+.contact {padding:60px 20px;text-align:center;}
+
+.whatsapp {
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+box-shadow:0 0 10px rgba(0,0,0,0.5);
+}
+
+footer {background:#000;text-align:center;padding:20px;color:#aaa;}
+</style>
+</head>
+
+<body>
+
+<nav>
+<h1><span class="logo-a">A</span><span class="logo-g">G</span> Pawnshop</h1>
+<div>
+<a href="#">Home</a>
+<a href="#services">Services</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+
+<section class="hero">
+<h2>Cash For Your Valuables</h2>
+<p>Fast. Secure. Trusted Pawn Services.</p>
+</section>
+
+<section class="services" id="services">
+<h2>Our Services</h2>
+<div class="cards">
+<div class="card"><h3>Pawn Loans</h3><p>Quick cash loans using valuables.</p></div>
+<div class="card"><h3>Buy & Sell</h3><p>Electronics, jewelry, more.</p></div>
+<div class="card"><h3>Gold & Jewelry</h3><p>Top prices paid.</p></div>
+</div>
+</section>
+
+<section class="about" id="about">
+<h2>About AG Pawnshop</h2>
+<p>Located at 958 Hanny St<br>Call us: 061 486 8586</p>
+</section>
+
+<section class="contact" id="contact">
+<h2>Contact Us</h2>
+<p>Visit us at 958 Hanny St or WhatsApp us directly.</p>
+</section>
+
+<a class="whatsapp" href="https://wa.me/27614868586" target="_blank">
+💬 WhatsApp Us
+</a>
+
+<footer>
+<p>© 2026 AG Pawnshop | 958 Hanny St | 061 486 8586</p>
+</footer>
+
+</body>
+</html>
